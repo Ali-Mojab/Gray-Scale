@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*----------------  Nav  ------------------*/
+#navbar{
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+#navbar .container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#navbar .container a{
+    float: left;
+}
+
+#navbar .container ul{
+    float: right;
+    list-style: none;
+}
+
+#navbar .container li{
+    float: left;
+    padding: 0 25px;
+}
+
+#navbar .container .navbar-brand{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size:20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#navbar .container li a{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size:16px;
+    font-weight:400;
+    letter-spacing:1px;
+    line-height:24px;
+    color:rgba(255, 255, 255, 0.5);
+} 
+
+#navbar .container::after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both; 
+}
+
+/*---------------------   Header  ------------------*/
+
+#header{
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url(../img/pic.jpg);
+    padding: 15rem 0;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#header h1{
+    font-family: 'Varela Round', sans-serif;
+    font-size:104px;
+    font-weight:500;
+    letter-spacing:12.8px;
+    line-height:104px;
+    color:rgb(33, 37, 41);
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 0 auto;
+    text-transform:uppercase;
+    padding-bottom: 2rem;
+}
+
+#header span{
+    display: inline-block;
+    height: 3px;
+    width: 80px;
+    background:rgb(33, 37, 41);
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+   
+}
+
+#header p{
+    font-family:Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size:20px;
+    font-weight:500;
+    height:48px;
+    letter-spacing:1px;
+    line-height:24px;
+    color:rgba(255, 255, 255, 0.5);
+    padding: 2rem 0;
+}
+
+#header a{
+    display: inline-block;
+    background-color:rgb(100, 161, 157);
+    border-radius: 4px;
+    font-family:"Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size:12.8px;
+    font-weight:400;
+    letter-spacing:2.4px;
+    line-height:19.2px;
+    box-shadow:rgba(0, 0, 0, 0.1) 0px ;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+    padding: 20px 32px;
+    margin: 3rem 0;
+    text-decoration: none;
+}
+
+/* ---------------------- Started ---------------------*/
+
+#started{
+    width: 100%;
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    text-align: center;
+}
+
+#started h2{
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+}
+
+#started p{
+    margin-bottom: 5rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.0625em;
+}
+
+#started img{
+    width: 70%;
+    vertical-align: middle;
+}
+
+/*------------------------------ Services -----------------------*/
+
+/* #services{
+    width: 100%;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#services .container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#services h2{
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #212529;
+}
+
+#services h2::after{
+   content:"  ";
+   display: block;
+   width: 80px;
+   height: 3px;
+   background-color: #64a19d;
+   margin: 2rem auto;
+}
+
+#services ul{
+    list-style-type: none;
+}
+
+#services ul li ion-icon{
+    font-size: 80px;
+    /* fill: #64a19d !important;  */
+    /* color: gray !important;
+}  */
+
+
+/*------------------------------ Projects -----------------------*/
+ 
+#projects{
+    width: 100%;
+    padding: 10rem 0;
+    margin: auto;
+    
+}
+
+#projects .container{
+    width: 70%;
+    margin: auto;
+}
+
+
+#projects .container img{
+    width: 55%;
+    margin-bottom: 3rem;
+    float: left;
+}
+
+#featured-text{
+    float: left;
+    margin: 3rem 0;
+    width: 30%;
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+    text-align: left;
+    margin-top: 10rem;
+}
+
+#projects .container h4{
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #212529;
+    letter-spacing: 0.0625em;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    
+}
+
+#projects .container p{
+    color: rgba(0, 0, 0, 0.5) ;
+    letter-spacing: 0.0625em;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#projects .container::after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both; 
+}
+
